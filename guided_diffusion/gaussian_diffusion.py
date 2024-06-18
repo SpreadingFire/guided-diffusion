@@ -3,6 +3,9 @@
 https://github.com/hojonathanho/diffusion/blob/1e0dceb3b3495bbe19116a5e1b3596cd0706c543/diffusion_tf/diffusion_utils_2.py
 
 已经添加了Docstrings（文档字符串），DDIM采样和新的beta调度集合。
+
+这段代码的目的是实现一个基于扩散模型的图像生成和训练框架。它主要用于生成和训练扩散模型（diffusion models），
+这是由Jonathan Ho等人提出的一种图像生成技术。代码提供了训练和采样的主要功能，并实现了不同的beta调度表、损失类型和变量类型等。
 """
 
 import enum
